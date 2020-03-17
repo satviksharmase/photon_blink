@@ -1,0 +1,79 @@
+#include "lib1.h"
+int led = D7; 
+void setup() {
+
+  pinMode(led, OUTPUT);
+
+}
+
+
+void loop() {
+    delay(10000);
+    //S
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  //A
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(3000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  //T
+  digitalWrite(led, HIGH);
+  delay(3000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  //V
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000); 
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000); 
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(3000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  //I
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  //K
+  digitalWrite(led, HIGH);
+  delay(3000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digitalWrite(led, LOW);
+  delay(1000);
+  digitalWrite(led, HIGH);
+  delay(3000);
+  digitalWrite(led, LOW);
+  delay(1000);
+}
+
